@@ -1,0 +1,195 @@
+
+/* ------------------------------------------------------------------------------------
+--  FACEBOOK
+------------------------------------------------------------------------------------ */
+
+.facebook a {
+    position:relative;
+    border-color:#3c5a98;
+    text-transform:lowercase;
+    text-indent:34px;
+    letter-spacing:10px;
+    font-weight:bold;
+    font-size:64px;
+    line-height:66px;
+    color:#fff;
+    background:#3c5a98;
+
+    /* css3 */
+    -moz-box-shadow:0 0 4px rgba(0,0,0,0.4);
+    -webkit-box-shadow:0 0 4px rgba(0,0,0,0.4);
+    box-shadow:0 0 4px rgba(0,0,0,0.4); /* standards version last */
+}
+
+/* ------------------------------------------------------------------------------------
+--  TWITTER
+------------------------------------------------------------------------------------ */
+
+.twitter a {
+    position:relative;
+    border-color:#a8eaec;
+    text-transform:lowercase;
+    text-indent:20px;
+    letter-spacing:40px;
+    font:bold 60px/1 Tahoma, sans-serif;
+    line-height:60px;
+    color:#76DDF8;
+    background:#daf6f7;
+
+    /* css3 */
+    text-shadow: 3px 3px 1px #fff, -3px -3px 1px #fff, 3px -3px 1px #fff, -3px 3px 1px #fff;
+    -moz-box-shadow:0 0 4px rgba(0,0,0,0.4);
+    -webkit-box-shadow:0 0 4px rgba(0,0,0,0.4);
+    box-shadow:0 0 4px rgba(0,0,0,0.4); /* standards version last */
+    /* NOTE: webkit gradient implementation is not as per spec */
+    background:-webkit-gradient(linear, left top, left bottom, from(#dbf7f8), to(#88e1e6));
+    background:-moz-linear-gradient(top, #dbf7f8, #88e1e6);
+}
+
+/* ------------------------------------------------------------------------------------
+--  RSS
+------------------------------------------------------------------------------------ */
+
+.rss a {
+    position:relative;
+    width:60px;
+    padding:0 2px;
+    border-color:#ea6635;
+    text-transform:lowercase;
+    text-indent:-186px;
+    font-size:64px;
+    font-weight:bold;
+    color:#fff;
+    background:#e36443;
+
+    /* css3 */
+    /* NOTE: box-shadow is not currently in any CSS3 module. It may be reappear in a different form altogether */
+    -moz-box-shadow:0 0 4px rgba(0,0,0,0.4);
+    -webkit-box-shadow:0 0 4px rgba(0,0,0,0.4);
+    box-shadow:0 0 4px rgba(0,0,0,0.4); /* standards version last */
+    /* NOTE: webkit gradient implementation is not as per spec */
+    background:-webkit-gradient(linear, left top, left bottom, from(#f19242), to(#e36443));
+    background:-moz-linear-gradient(top, #f19242, #e36443);
+}
+
+/* create circle */
+.rss a:before {
+    content:"\00a0";
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    width:12px;
+    height:12px;
+    background:#fff;
+
+    /* css3 */
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    border-radius:12px; /* standards version last */
+}
+
+/* create the two arcs */
+.rss a:after {
+    content:"\00a0";
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    width:22px;
+    height:22px;
+    border-style:double;
+    border-width:24px 24px 0 0;
+    border-color:#fff;
+
+    /* css3 */
+    -moz-border-radius:0 50px 0 0;
+    -webkit-border-top-right-radius:50px;
+    border-radius:0 50px 0 0; /* standards version last */
+}
+
+/* ------------------------------------------------------------------------------------
+--  FLICKR
+------------------------------------------------------------------------------------ */
+
+.flickr a {
+    position:relative;
+    border-color:#d2d2d2;
+    text-indent:-9000px;
+    font-size:108px;
+    font-weight:bold;
+    color:#fff;
+    background:#fff;
+
+    /* css3 */
+    /* NOTE: box-shadow is not currently in any CSS3 module. It may be reappear in a different form altogether */
+    -moz-box-shadow:0 0 4px rgba(0,0,0,0.4);
+    -webkit-box-shadow:0 0 4px rgba(0,0,0,0.4);
+    box-shadow:0 0 4px rgba(0,0,0,0.4); /* standards version last */
+    /* NOTE: webkit gradient implementation is not as per spec */
+    background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#d2d2d2));
+    background:-moz-linear-gradient(top, #fff, #d2d2d2);
+}
+
+/* create blue circle */
+.flickr a:before {
+    content:"\00a0";
+    position:absolute;
+    top:50%;
+    left:30%;
+    width:20px;
+    height:20px;
+    margin:-10px 0 0 -10px;
+    background:#085ec5;
+    border:1px solid #003c84;
+
+    /* css3 */
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px; /* standards version last */
+    /* NOTE: webkit gradient implementation is not as per spec */
+    background:-webkit-gradient(linear, left top, left bottom, from(#005cc6), to(#003d83));
+    background:-moz-linear-gradient(top, #005cc6, #003d83);
+}
+
+/* create pink circle */
+.flickr a:after {
+    content:"\00a0";
+    position:absolute;
+    top:50%;
+    right:30%;
+    width:20px;
+    height:20px;
+    margin:-10px -10px 0 0;
+    border:1px solid #ba0060;
+    background:#fd1e93;
+
+    /* css3 */
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius:20px; /* standards version last */
+    /* NOTE: webkit gradient implementation is not as per spec */
+    background:-webkit-gradient(linear, left top, left bottom, from(#fd1e93), to(#cb026c));
+    background:-moz-linear-gradient(top, #fd1e93, #cb026c);
+}
+/* ------------------------------------------------------------------------------------
+--  GOOGLE
+------------------------------------------------------------------------------------ */
+
+.google a {
+    position:relative;
+    border-color:#26478d;
+    text-transform:lowercase;
+    text-indent:16px;
+    letter-spacing:40px;
+    font: 65px/44px Georgia, Times New Roman, Times, serif;
+    color:#fff;
+    background:#1e3c7f;
+
+    /* css3 */
+    -moz-box-shadow:0 0 4px rgba(0,0,0,0.4);
+    -webkit-box-shadow:0 0 4px rgba(0,0,0,0.4);
+    box-shadow:0 0 4px rgba(0,0,0,0.4); /* standards version last */
+    /* NOTE: webkit gradient implementation is not as per spec */
+    background:-webkit-gradient(linear, left top, left bottom, from(#447aec), to(#1e3c7f));
+    background:-moz-linear-gradient(top, #447aec, #1e3c7f);
+}
+
